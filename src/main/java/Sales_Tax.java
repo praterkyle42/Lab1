@@ -9,7 +9,7 @@ import java.text.DecimalFormat;
 
 /**
  *
- * @author mdpra
+ * @author kylep
  */
 public class Sales_Tax {
     private static DecimalFormat df = new DecimalFormat("0.00");
