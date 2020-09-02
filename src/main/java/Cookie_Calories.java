@@ -9,8 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author mdpra
- */
+ * @author kylep*/
 public class Cookie_Calories {
     public static void main (String[] args){
         //Calculate the Number of Calories per Bag of Cookies
