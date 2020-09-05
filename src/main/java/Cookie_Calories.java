@@ -12,13 +12,11 @@ import java.util.Scanner;
  * @author kylep*/
 public class Cookie_Calories {
     public static void main (String[] args){
-        //Calculate the Number of Calories per Bag of Cookies
+        //Calculate the Number of Cookies per Serving
         final double CALORIES_PER_SERVING = 300; 
         final double COOKIES_IN_BAG = 40;
-        double CaloriesPerBag = CALORIES_PER_SERVING * 10; 
-        
-        //Calculate the Number of Cookies per Serving 
-        double CookiesPerServing = COOKIES_IN_BAG / 10; 
+        final double SERVINGS_IN_BAG = 10;
+        double CookiesPerServing = COOKIES_IN_BAG / SERVINGS_IN_BAG; 
         
         //Calculate the Number of Calories per Cookie 
         double CaloriesPerCookie = CALORIES_PER_SERVING / CookiesPerServing;
